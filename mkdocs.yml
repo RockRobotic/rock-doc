@@ -1,9 +1,10 @@
-site_name: Rock Robotic 
+site_name: Rock Robotic R1a
 extra_css:
   - stylesheets/extra.css
 theme:
   name: material
   logo: img/rock.png
+  favicon: img/favicon.png
   palette:
     scheme: default
     primary: black

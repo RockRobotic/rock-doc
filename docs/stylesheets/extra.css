@@ -1,3 +1,17 @@
+/* roboto-condensed-700 - latin */
+@font-face {
+  font-family: 'Roboto Condensed';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/roboto-condensed-v18-latin-700.eot'); /* IE9 Compat Modes */
+  src: local('Roboto Condensed Bold'), local('RobotoCondensed-Bold'),
+       url('../fonts/roboto-condensed-v18-latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/roboto-condensed-v18-latin-700.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/roboto-condensed-v18-latin-700.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/roboto-condensed-v18-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/roboto-condensed-v18-latin-700.svg#RobotoCondensed') format('svg'); /* Legacy iOS */
+}
+
 .md-header {
     background-color: #181818 !important;
     box-shadow: none;
@@ -8,7 +22,8 @@
 }
 
 .md-typeset h1 {
-    font-size: 40px;
+    font-family: 'Roboto Condensed';
+    font-size: 45px;
     color: #181818;
     letter-spacing: -0.04em;
 }
@@ -21,7 +36,7 @@
 }
 
 .md-typeset h3 {
-    font-size: 19px;
+    font-size: 24px;
     color: #181818;
     letter-spacing: -0.04em;
 }
