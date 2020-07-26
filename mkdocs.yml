@@ -1,0 +1,32 @@
+site_name: Rock Robotic 
+theme:
+  name: material
+  logo: img/rock.png
+  palette:
+    scheme: default
+    primary: black
+  features:
+    - instant
+markdown_extensions:
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+copyright: 'Rock Robotic Inc.'
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/rockrobotic
+repo_url: https://github.com/rockrobotic/rock-doc
+plugins:
+  - search
+markdown_extensions:
+    - admonition
+    - codehilite:
+        guess_lang: False
+    - def_list
+    - footnotes
+    - meta
+    - toc:
+        permalink: True
+    - pymdownx.details
+    - attr_list
