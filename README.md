@@ -1,5 +1,7 @@
 # Rock Robotic Docs
 
+View the [Rock Robotic Docs](https://docs.rockrobotic.com/).
+
 This is a repo containing all Rock Robotic docs. Rock Docs uses [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/). MkDocs is a static site generator geared towards (technical) project documentation.
 
 Visit the [Rock Robotic](https://rockrobotic.com) site or our [Community](https://community.rockrobotic.com) site for more information.
