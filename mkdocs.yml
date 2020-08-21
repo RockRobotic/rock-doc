@@ -39,6 +39,8 @@ nav:
   - Quickstart:
     - First Setup: quickstart/first-setup.md
     - Web Interface: quickstart/web-interface.md
+  - Tutorials:
+    - Terrain Following Mission: tutorials/Terrain-Following-Tutorial.md
   - Drone Setup:
     - Matrice 300 RTK: drone-setup/m300.md
     - Matrice 210: drone-setup/m210.md
