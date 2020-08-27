@@ -2,6 +2,10 @@
 
 Welcome to your Rock Robotic R1a!
 
+[![](img/Base-Placement.png){: style="width: 200px;"}](placing-the-base/settingup.md)
+[![](img/calibration.png){: style="width: 200px;"}](Calibration/Calibration.md)
+[![](img/flight-plan.png){: style="width: 200px;"}](mission-planning/mission-planning.md)
+
 ## Package Contents
 
 In the box:
@@ -20,4 +24,3 @@ This document can be edited on GitHub in markdown. If you find any mistakes, typ
 ### Discussion
 
 We are happy to answer any questions at [community.rockrobotic.com](http://community.rockrobotic.com).
-

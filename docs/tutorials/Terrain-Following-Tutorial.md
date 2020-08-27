@@ -1,18 +1,40 @@
-# First Setup
+# LiDAR Acquisition with Ground Control Points
 
 ## Intro
 
-In this tutorial, we will walk you through the following steps:
+After you have completed the
+getting started tutorial and you have your ROCK R1A mounted to your drone and
+powered on for the first time, you can jump into this lesson. This lesson will
+walk you through the steps of collecting and processing a LiDAR survey with Ground
+Control Points.  For this tutorial we are using the ROCK R1A on the DJI M210 Drone
+with the EMLID Reach RS2 survey kit and ground control aerial targets. (A complete list
+of equipment used is below)  
 
-* Attach the R1a to your vehicle
-* Power on and connect to the R1a
-* Configure the R1a
-* Setup your base station
-* Calibrate the R1a
-* Collect data
-* Retrieve data for processing
+This tutorials will cover the following:
 
-To do this, you will need Rock R1a itself, a smartphone or PC, and the vehicle.
+* Capturing Ground Control Points
+* Terrain Following flight plan
+* Pre flight and Post flight LiDAR Calibration
+* Uploading Data to the ROCK cloud
+* Generating Bare Earth Digital Elevation Model (DEM)
+* Generating Contours
+* Viewing and Downloading Results
+
+Lets jump right in!
+
+## Prerequisites
+
+* Completed First Setup
+
+## Equipment used
+
+* DJI M210 Drone
+* ROCK R1A LiDAR payload
+* EMLID Reach RS2 Survey kit
+* 2m bi-pod
+* Survey dual clamp tripod
+* tribrach
+* Maps Made Easy (Terrain Flight planning)(Still under Review)
 
 ## Attach the R1a to your vehicle
 
