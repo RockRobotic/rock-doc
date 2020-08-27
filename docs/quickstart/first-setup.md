@@ -28,7 +28,7 @@ Refer to the setup guide for your particular drone to connect the R1a.
 
 First, ensure the supplied usb drive is inserted into the R1a. Then, power on the R1a. After powering up the unit, open Wi-Fi settings on your host computer (tablet, smartphone, or PC) and look for the wireless network labeled:
 
-`RESEPI-######`
+`ROCKrobotic-######`
 
 Connect to this network using the following password:
 
