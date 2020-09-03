@@ -6,17 +6,17 @@ Creating a project allows you to upload all of your LiDAR data and submit for pr
 
 Simply click 'Add New Project'
 
-<div style="text-align: center;"><img src="../img/add-new-project.png" style="width: 300px;"></div>
+![New Project](./img/add-new-project.png){: style="width: 300px;margin:0 auto;display:block;"}
 
 And you will be presented with an easy and intuitive interface to upload your data.
 
-<div style="text-align: center;"><img src="../img/create-project.png" style="width: 300px;"></div>
+![Create Project](./img/create-project.png){: style="width: 300px;margin:0 auto;display:block;"}
 
 ## Project data
 
 When you have completed a flight with your R1A and the unit is shut down, simply remove the USB stick from the unit and insert into your computer. You will see a folder that looks similar to this:
 
-<div style="text-align: center;"><img src="../img/file-upload.png" style="width: 500px;"></div>
+![File Upload](./img/file-upload.png){: style="width: 500px;margin:0 auto;display:block;"}
 
 Simply select all of these files and upload them into the project data section.
 
@@ -40,6 +40,6 @@ The project location will automatically be calculated if you are using the R1A. 
 
 Once complete, save your project and see your flight on the map.
 
-<div style="text-align: center;"><img src="../img/map-view.png" style="width: 500px;"></div>
+![Map View](./img/map-view.png){: style="width: 500px;margin:0 auto;display:block;"}
 
 [Time to process your data!](process.md)

@@ -12,6 +12,5 @@ Becoming an expert LiDAR mapper requires a good understanding of mission plannin
 In this section We provide 2 recommended settings that will get you best results. Then for further understanding of complex job site,  large area mapping planning, or structure mapping, we recommend you to our [detailed tutorial series on mission planning.](../tutorials/advanced-mission.md)
 
 ## Recommended Flight Control Software
-
 [![](../img/DJI-GSPro.png){: style="width: 200px; padding: 30px;" }](https://support.geocue.com/wp-content/uploads/2018/06/DJI-GS-Pro-User-Manual-.pdf)
 [![](../img/maps-made-easy.png){: style="width: 200px; padding: 30px;"}](https://www.mapsmadeeasy.com/guide)
