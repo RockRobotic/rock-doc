@@ -4,7 +4,7 @@ Depending on the selections made during the processing step your data deliverabl
 
 ## Data Visualizer
 
-<div style="text-align: center;"><img src="../img/visualizer.gif" style="width: 550px;"></div>
+![Rock Robotic Data Visualizer](./img/visualizer.gif){: style="width: 550px;margin:0 auto;display:block;"}
 
 The Rock Cloud has a powerful data visualizer built right in. There are hundreds of different ways to view and analyze your data using our data visualizer. Below are just a few of the most popular.
 
@@ -16,7 +16,7 @@ Open the Rock Visualizer Menu and click Scene --> Select 'Project' in the object
 
 Open the Rock Visualizer Menu and click 'Filters' --> Select only 'ground' classification.
 
-<div style="text-align: center;"><img src="../img/classification.png" style="width: 300px;"></div>
+![Classification](./img/classification.png){: style="width: 300px;margin:0 auto;display:block;"}
 
 ### Height Profile
 
@@ -24,11 +24,11 @@ Open the Rock Visualizer Menu and click 'Tools' --> Select the 'Height Profile' 
 
 In the Rock Visualizer Menu select 'Scene' --> Select the 'Profile' in the Objects tree --> Click 'show 2d profile' button.
 
-<div style="text-align: center;"><img src="../img/profile-object.png" style="width: 300px;"></div>
+![Profile](./img/profile-object.png){: style="width: 300px;margin:0 auto;display:block;"}
 
 Then you will be presented with the Height Profile Viewer. The height profile units is meters.
 
-<div style="text-align: center;"><img src="../img/height-profile-viewer.png" style="width: 600px;"></div>
+![Height profile](./img/height-profile-viewer.png){: style="width: 600px;margin:0 auto;display:block;"}
 
 ### Annotate
 
@@ -38,4 +38,4 @@ Open the Rock Visualizer Menu and click 'Tools' --> Select the Annotation icon <
 
 Once selected you can click on the point cloud to place the annotation pin. Scroll down in the sidebar to change the properties of the title and description. To save the annotations and the default camera view, select the 'Set Defaults' link in the sidebar.
 
-<div style="text-align: center;"><img src="../img/set-defaults.png" style="width: 300px;"></div>
+![Set Defaults](./img/set-defaults.png){: style="width: 300px;margin:0 auto;display:block;"}

@@ -16,7 +16,7 @@ Calibrating the LiDAR is an important step to collecting accurate data, and the 
 :   Using the web interface, wait until you have 8 or more GNSS satellites. Then press the start button
     inside the data recording window.
 
-<div style="text-align: center;"><img src="../../quickstart/img/web-interface.png" style="width: 350px;"></div>
+![Web Interface](../../quickstart/img/web-interface.png){: style="width: 350px;margin:0 auto;display:block;"}
 
 ####Collect Static Data
 :   The R1A needs to get a static alignment. After you start data recording, then let the R1A
@@ -29,8 +29,9 @@ Calibrating the LiDAR is an important step to collecting accurate data, and the 
 ####Fly figure 8 pattern
 :   Now fly 3 figure 8 patterns in the sky.  Do your best, but its not critical to be the best 8 flyer ;)
 
+
+![Figure 8](../../img/figure-8.gif){: style="width: 600px;margin:0 auto;display:block;"}
 <div style="text-align: center;">
-  <img src="../../img/figure-8.gif" style="width: 600px;">
   <figcaption>Figure 1</figcaption>
 </div>
 

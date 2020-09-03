@@ -19,8 +19,8 @@ In this tutorial we will show discuss 3 scenarios for setting up your base.
 
 ROCK cloud has several ways to determine your position with varying levels of accuracy. Let's take a look at the illustration below (figure 1). The ROCK Cloud algorithm can precisely calculates the distance between the base and R1A rover. This distance is called the Baseline. The R1A rover position is precisely determined relative to the Base position.  The more precisely we can locate our base station then the more accurate our location for the rover will be, and as a result, the accuracy for our LiDAR data.  Any offset from the true location on the base station from the true location will be directly applied to the rover coordinates offset, and by extension to our LiDAR data.  
 
+![Base Rover Diagram](../../img/Base-Rover-diagram.png){: style="width: 600px;margin:0 auto;display:block;"}
 <div style="text-align: center;">
-  <img src="../../img/Base-Rover-diagram.png" style="width: 600px;">
   <figcaption>Figure 1</figcaption>
 </div>
 
@@ -35,11 +35,11 @@ being off from the true location.  As you can see, if the base station computed 
 
 Next, we will discuss 3 methods of locating your base station to be uploaded to the ROCK cloud.
 
+
+![LiDAR Shift](../../img/LiDAR-Shift.png){: style="width: 600px;margin:0 auto;display:block;"}
 <div style="text-align: center;">
-    <img src="../../img/LiDAR-Shift.png" style="width: 600px;">
     <figcaption>Figure 2</figcaption>
 </div>
-
 
 
 
@@ -53,8 +53,9 @@ Next, we will discuss 3 methods of locating your base station to be uploaded to 
 
 It is often the case that you will arrive on a job site that has already been surveyed and there exists a survey benchmark on this job site.  Figure 3 depicts several examples of common job site survey benchmarks/markers/monuments.
 
+
+![GCP](../../img/GCP.png){: style="width: 600px;margin:0 auto;display:block;"}
 <div style="text-align: center;">
-    <img src="../../img/GCP.png" style="width: 600px;">
     <figcaption>Figure 3</figcaption>
 </div>
 

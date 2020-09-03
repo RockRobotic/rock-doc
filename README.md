@@ -19,6 +19,10 @@ Review the [Getting Started Guide](https://squidfunk.github.io/mkdocs-material/g
 2. Build mkdocs.
 `docker run --rm -it -p 8000:8000 -v ${PWD}:/docs squidfunk/mkdocs-material`
 
+3. Serve documentation without a server.
+* In mkdocs.yml add `use_directory_urls: false`
+* Run `docker run --rm -it -v ${PWD}:/docs squidfunk/mkdocs-material build`
+
 # CI/CD
 
 We use GitHub Actions to build the static site. Once built, the static site is committed to the gh-pages branch.
