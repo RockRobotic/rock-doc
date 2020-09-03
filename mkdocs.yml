@@ -42,6 +42,11 @@ nav:
   - Quickstart:
     - First Setup: quickstart/first-setup.md
     - Web Interface: quickstart/web-interface.md
+  - Rock Robotic Cloud:
+    - Getting Started: rock-cloud/getting-started.md
+    - Project: rock-cloud/project.md
+    - Process: rock-cloud/process.md
+    - Deliverables: rock-cloud/deliverables.md
   - Tutorials:
     - Placing the Base: tutorials/Placing-the-Base.md
     - Geometry Configuration: tutorials/geometry-configuration.md
@@ -52,11 +57,6 @@ nav:
     - Matrice 300 RTK: drone-setup/m300.md
     - Matrice 210: drone-setup/m210.md
     - Matrice 600: drone-setup/m600.md
-  - Rock Robotic Cloud:
-    - Getting Started: rock-cloud/getting-started.md
-    - Project: rock-cloud/project.md
-    - Process: rock-cloud/process.md
-    - Deliverables: rock-cloud/deliverables.md
 
 google_analytics:
   - UA-173543820-3
