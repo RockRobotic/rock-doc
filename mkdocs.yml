@@ -1,9 +1,9 @@
-site_name: R1a Docs
+site_name: ROCK robotic Docs
 extra_css:
   - stylesheets/extra.css
 theme:
   name: material
-  logo: img/RR-white-side.svg
+  logo: img/rock-robotic-logo.png
   favicon: img/favicon-black-R.png
   palette:
     scheme: default

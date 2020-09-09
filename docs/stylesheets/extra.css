@@ -13,8 +13,18 @@
 }
 
 .md-header {
-    background-color: #181818 !important;
+    background-color: #000000 !important;
     box-shadow: none;
+}
+
+.md-header-nav__button.md-logo {
+  margin: auto;
+  padding: 0;  
+}
+
+.md-header-nav__button.md-logo img {
+  width: 200px;
+  height: auto;
 }
 
 .md-header[data-md-state=shadow] {
@@ -39,10 +49,6 @@
     font-size: 24px;
     color: #181818;
     letter-spacing: -0.04em;
-}
-
-.md-header-nav__button.md-logo img {
-    width: auto;
 }
 
 .md-nav__title .md-nav__button.md-logo img {
