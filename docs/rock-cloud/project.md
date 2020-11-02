@@ -14,32 +14,20 @@ And you will be presented with an easy and intuitive interface to upload your da
 
 ## Project data
 
-When you have completed a flight with your R1A and the unit is shut down, simply remove the USB stick from the unit and insert into your computer. You will see a folder that looks similar to this:
+The two major file types that the ROCK Cloud suppors is .las and .laz. LAZ files are compressed and lossless LAS files. The compression of these files can be extraordinary. We recommend that all .las files be converted to .laz files prior to upload. If converted prior to upload, there will be a substantial savings in upload time and cloud storage space used.
 
-![File Upload](./img/file-upload.png){: style="width: 500px;margin:0 auto;display:block;"}
-
-Simply select all of these files and upload them into the project data section.
+Visit [laszip.org](https://laszip.org/) to download the command-line version 'laszip-cli.exe' or the GUI version 'laszip.exe'.
 
 ## Ground Control Points
 
 If you have a Pro plan you will have the ability to add one or more ground control points to your project. These ground control points will be used to improve the global accuracy of your LiDAR deliverables and they will be visible in the Rock Cloud Data Visualizer.
 
-## Base Station
-
-When performing a LiDAR survey you will have used a properly placed base station.
-
-[Learn more about placing the base from the dedicated article in our docs.](../tutorials/Placing-the-Base.md)
-
-After completing the base station data collection you will have a RINEX .obs file and a .nav file. Upload both of those files into the Base Station section. Additionally, you will need to enter the measurements for the height of the base station above the ground in meters. See [Measuring Base Height](../tutorials/Placing-the-Base.md#measuring-base-height) for more information.
-
 ## Project location
 
-The project location will automatically be calculated if you are using the R1A. However, you can update the project location if you are not.
+The project location will automatically be calculated if the las/laz file uploaded contains the appropriate header information or if the correct projection information is specified on the project page. However, you can manually update the project location if the location cannot be found.
 
 ## Save the Project
 
-Once complete, save your project and see your flight on the map.
-
-![Map View](./img/map-view.png){: style="width: 500px;margin:0 auto;display:block;"}
+Once complete, save your project and your data will be queued up for processing. Processing typically takes from 1-5 minutes to process. Once you see the LIDAR button, you know your project is ready to view.
 
 [Time to process your data!](process.md)
