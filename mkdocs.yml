@@ -42,10 +42,11 @@ nav:
   - Quickstart:
     - First Setup: quickstart/first-setup.md
     - Web Interface: quickstart/web-interface.md
-  - Rock Robotic Preprocessing:
-    - Pre-processing: pre-processing/pre-process.md
+  - Rock Robotic Pre-processing:
+    - Introduction: pre-processing/pre-process.md
     - Trajectory Processing: pre-processing/trajectory-processing.md
-    - Point Cloud Processing: pre-processing/point-cloud-processing.md
+    - Pointcloud Processing: pre-processing/point-cloud-processing.md
+    - Pointcloud Colorizing: pre-processing/colorizing.md
   - Rock Robotic Cloud:
     - Getting Started: rock-cloud/getting-started.md
     - Project: rock-cloud/project.md
@@ -58,6 +59,7 @@ nav:
     - Connectivity: tutorials/connectivity.md
     - Firmware Update: tutorials/firmware.md
     - Advanced Mission Planning: tutorials/advanced-mission.md
+    - R1A Boresighting: tutorials/r1a-boresighting.md
   - Drone Setup:
     - Matrice 300 RTK: drone-setup/m300.md
     - Matrice 210: drone-setup/m210.md
