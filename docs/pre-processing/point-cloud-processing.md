@@ -6,12 +6,15 @@ The ROCK Robotic R1A consists of a LiDAR and an INS. The data gathered from both
 
 PCMasterGL works on Windows 10 x64 (MacOS and Linux x64 versions are in development). The key requirement for seamless visualization of large point clouds is a fast GPU with large video memory (dedicated or shared). The software has been tested on nVidia GeForce GTX graphics cards, but it is hardware independent. The rule of thumb is 1 GB of memory for every 15 million points in the cloud. The current software limit is 800 million points. Fast data processing also requires a fast CPU.
 
-**Recommended computer specifications:**
+## Quick Workflow
 
-* Intel Core i7 or better
-* 32 GB RAM
-* Nvidia GeForce GTX 1050 Ti or better
-* Windows 10 x64
+Quick workflow is designed for fast LAS file production when the offsets and the calibration values are already stored in R1A.
+
+- Click &quot; **New Project**&quot; and select the trajectory file and the scan files when asked. All scan files should be selected at the same time.
+- **Right-click** at the blue end of the trajectory and select &quot; **Start selection here**&quot;.
+- **Right-click** at the red end of the trajectory and select &quot; **Finish selection here**&quot;.
+- Click &quot; **Cloud Filters**&quot; and adjust filters.
+- Click &quot; **Produce LAS**&quot; and save the project when asked.
 
 ## Workflows
 
@@ -135,16 +138,6 @@ In full workflow, designed for laser calibration and boresighting, the steps are
 Now the calibration segments can be removed by clicking &quot; **Delete**&quot; for each of them in the **Path controls** window. Then the full trajectory can be selected for LAS file export as in the next section for Quick workflow.
 
 Also, the project can be saved using &quot; **Save Project**&quot; and imported into R1A for storing the offsets and the calibration values.
-
-## Quick Workflow
-
-Quick workflow is designed for fast LAS file production when the offsets and the calibration values are already stored in R1A.
-
-- Click &quot; **New Project**&quot; and select the trajectory file and the scan files when asked. All scan files should be selected at the same time.
-- **Right-click** at the blue end of the trajectory and select &quot; **Start selection here**&quot;.
-- **Right-click** at the red end of the trajectory and select &quot; **Finish selection here**&quot;.
-- Click &quot; **Cloud Filters**&quot; and adjust filters.
-- Click &quot; **Produce LAS**&quot; and save the project when asked.
 
 ## Batch Processing
 
