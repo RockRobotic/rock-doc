@@ -163,3 +163,5 @@ Save this project file to a location of your choice and right-click the project 
 To run a particular project file from the command line simply use the following command:
 
 _C:\ (location of PCMasterGL.exe)\&gt;_ _PCMasterCL.exe \&lt;path to the project file\&gt;_
+
+** Step 3 - [Pointcloud Colorizing](colorizing.md) **
