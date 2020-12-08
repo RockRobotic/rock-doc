@@ -150,3 +150,5 @@ Save this project file to a location of your choice and right-click the project 
 To run a particular project file from the command line simply use the following command:
 
 _C:\ (location of PCPainterGL.exe)\&gt;_ _PCPainterCL.exe \&lt;path to the project file\&gt;_
+
+** Step 4 - [Upload to the ROCK Cloud](../rock-cloud/project.md) **

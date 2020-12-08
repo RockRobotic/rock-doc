@@ -43,7 +43,7 @@ nav:
     - First Setup: quickstart/first-setup.md
     - Web Interface: quickstart/web-interface.md
   - Rock Robotic Pre-processing:
-    - Introduction: pre-processing/pre-process.md
+    - Introduction: pre-processing/introduction.md
     - Trajectory Processing: pre-processing/trajectory-processing.md
     - Pointcloud Processing: pre-processing/point-cloud-processing.md
     - Pointcloud Colorizing: pre-processing/colorizing.md
