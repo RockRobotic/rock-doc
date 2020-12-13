@@ -6,7 +6,7 @@
 
 1. If using an external battery source for the LiDAR, ensure there is enough voltage for the mission.
 
-1. Ensure there is enough space on the supplied USB stick for the flight.
+1. Ensure there is enough space on the **supplied** USB stick for the flight.
 
 1. Ensure your base station is logging RINEX data.
 
@@ -20,7 +20,7 @@
 
 1. Take off and fly quickly in a straight line for 10 seconds.
 
-1. Fly three figure 8 patters
+1. Fly three figure 8 patterns
 
 1. Start the mission
 
