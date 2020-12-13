@@ -46,6 +46,7 @@ nav:
   - Quickstart:
     - First Setup: quickstart/first-setup.md
     - Web Interface: quickstart/web-interface.md
+    - Flight Checklist: quickstart/checklist.md
   - Rock Robotic Pre-processing:
     - Introduction: pre-processing/introduction.md
     - Trajectory Processing: pre-processing/trajectory-processing.md

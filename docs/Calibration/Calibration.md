@@ -16,7 +16,7 @@ Calibrating the LiDAR is an important step to collecting accurate data, and the 
 :   Using the web interface, wait until you have 8 or more GNSS satellites. Then press the start button
     inside the data recording window.
 
-![Web Interface](../quickstart/img/web-interface.png){: style="width: 350px;margin:0 auto;display:block;"}
+![Web Interface](../img/web-interface.png){: style="width: 350px;margin:0 auto;display:block;"}
 
 ####Collect Static Data
 :   The R1A needs to get a static alignment. After you start data recording, then let the R1A
