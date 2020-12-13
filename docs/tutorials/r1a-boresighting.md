@@ -4,7 +4,7 @@ Remote Sensing Payload Instrument (R1A) – consists of a LiDAR and an Inertial 
 
 ## LiDAR boresighting and calibration – drive pattern
 
-![Create Project](./img/boresighting.png){: style="width: 100%;margin:0 auto;display:block;"}
+![Create Project](../img/boresighting.png){: style="width: 100%;margin:0 auto;display:block;"}
 
 Drive Pattern Notes:
 
@@ -47,10 +47,10 @@ That means:
 
 Blue shows the scans when all alignment parameters are correct. Pink shows the scans when the respective alignment parameter is incorrect.
 
-![Yaw](./img/yaw.png){: style="width: 100%;margin:0 auto;display:block;"}
-![Pitch](./img/pitch.png){: style="width: 100%;margin:0 auto;display:block;"}
-![Roll](./img/roll.png){: style="width: 100%;margin:0 auto;display:block;"}
-![Elevation](./img/elevation.png){: style="width: 100%;margin:0 auto;display:block;"}
+![Yaw](../img/yaw.png){: style="width: 100%;margin:0 auto;display:block;"}
+![Pitch](../img/pitch.png){: style="width: 100%;margin:0 auto;display:block;"}
+![Roll](../img/roll.png){: style="width: 100%;margin:0 auto;display:block;"}
+![Elevation](../img/elevation.png){: style="width: 100%;margin:0 auto;display:block;"}
 
 Obviously, edge mismatches in Pitch, Roll, and Elevation are very well observable between back and forth scans of the critical area. They can be corrected separately from each other by aligning the appropriate edges in the two clouds.
 
@@ -62,49 +62,49 @@ Here, in a zoomed view of the critical area, blue is the East-West scan (both di
 
 |  |  |
 | --- | --- |
-| ![Yaw offset incorrect](./img/yaw-incorrect.png){: style="width: 100%;margin:0 auto;display:block;"} | ![Yaw offset correct](./img/yaw-correct.png){: style="width: 100%;margin:0 auto;display:block;"} |
+| ![Yaw offset incorrect](../img/yaw-incorrect.png){: style="width: 100%;margin:0 auto;display:block;"} | ![Yaw offset correct](../img/yaw-correct.png){: style="width: 100%;margin:0 auto;display:block;"} |
 
 The edges from the two sets of clouds can be aligned by adjusting the Yaw offset.
 
 So, if all parameters of laser #1 are incorrect, the clouds will look like this (blue is the East scan, pink is the West scan):
 
-![Incorrect](./img/incorrect-scan.png){: style="width: 100%;margin:0 auto;display:block;"}
+![Incorrect](../img/incorrect-scan.png){: style="width: 100%;margin:0 auto;display:block;"}
 
 After adjusting Roll, the clouds will look like this:
 
-![Correct Scan](./img/roll-correct.png){: style="width: 100%;margin:0 auto;display:block;"}
+![Correct Scan](../img/roll-correct.png){: style="width: 100%;margin:0 auto;display:block;"}
 
 Now, let&#39;s focus on the bottom of the vertical edge for adjusting Elevation.
 
 Before:
 
-![Correct Scan](./img/elev-adjust-before.png){: style="width: 100%;margin:0 auto;display:block;"}
+![Correct Scan](../img/elev-adjust-before.png){: style="width: 100%;margin:0 auto;display:block;"}
 
 After:
 
-![Correct Scan](./img/elev-after.png){: style="width: 100%;margin:0 auto;display:block;"}
+![Correct Scan](../img/elev-after.png){: style="width: 100%;margin:0 auto;display:block;"}
 
 And then, the top of the vertical edge for adjusting Pitch.
 
 Before:
 
-![Correct Scan](./img/elev-adjust-before.png){: style="width: 100%;margin:0 auto;display:block;"}
+![Correct Scan](../img/elev-adjust-before.png){: style="width: 100%;margin:0 auto;display:block;"}
 
 After:
 
-![Correct Scan](./img/pitch-after.png){: style="width: 100%;margin:0 auto;display:block;"}
+![Correct Scan](../img/pitch-after.png){: style="width: 100%;margin:0 auto;display:block;"}
 
 One catch is that after adjusting Yaw:
 
-![After Yaw](./img/after-yaw.png){: style="width: 100%;margin:0 auto;display:block;"}
+![After Yaw](../img/after-yaw.png){: style="width: 100%;margin:0 auto;display:block;"}
 
 We get back to the side view of the East-West scan, and see this in zoomed bottom of the vertical edge:
 
-![East West](./img/east-west.png){: style="width: 100%;margin:0 auto;display:block;"}
+![East West](../img/east-west.png){: style="width: 100%;margin:0 auto;display:block;"}
 
 That is because Yaw and Roll are slightly coupled because of LiDAR tilt of 15 degrees. So, the final step is to refine Roll adjustment:
 
-![Finalized](./img/finalized.png){: style="width: 100%;margin:0 auto;display:block;"}
+![Finalized](../img/finalized.png){: style="width: 100%;margin:0 auto;display:block;"}
 
 This finalizes the LiDAR boresighting and reference laser calibration.
 
@@ -128,11 +128,11 @@ After the reference laser is calibrated, it is selected in PCMaster in pair with
 
 Before (reference laser is blue, the other laser is pink):
 
-![Before](./img/before.png){: style="width: 100%;margin:0 auto;display:block;"}
+![Before](../img/before.png){: style="width: 100%;margin:0 auto;display:block;"}
 
 After:
 
-![After](./img/after.png){: style="width: 100%;margin:0 auto;display:block;"}
+![After](../img/after.png){: style="width: 100%;margin:0 auto;display:block;"}
 
 ## Sensitivity and range
 

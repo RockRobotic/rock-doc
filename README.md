@@ -14,14 +14,14 @@ Review the [Getting Started Guide](https://squidfunk.github.io/mkdocs-material/g
 ## Quick Commands
 
 1. Get the Docker container.
-`docker pull squidfunk/mkdocs-material`
+`docker pull arknoll/mkdocs`
 
 2. Build mkdocs.
-`docker run --rm -it -p 8000:8000 -v ${PWD}:/docs squidfunk/mkdocs-material`
+`docker run --rm -it -p 8000:8000 -v ${PWD}:/docs arknoll/mkdocs`
 
 3. Serve documentation without a server.
 * In mkdocs.yml add `use_directory_urls: false`
-* Run `docker run --rm -it -v ${PWD}:/docs squidfunk/mkdocs-material build`
+* Run `docker run --rm -it -v ${PWD}:/docs arknoll/mkdocs build`
 
 # CI/CD
 

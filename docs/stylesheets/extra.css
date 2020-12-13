@@ -62,3 +62,10 @@
     color: var(--md-footer-fg-color--lighter);
     font-size: .64rem;
 }
+
+#print-site-cover-page h1 {
+    color: black;
+}
+#print-site-banner span {
+  display: none;
+}

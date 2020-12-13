@@ -44,7 +44,7 @@ When PCMasterGL is run in quick workflow mode with a pre-defined project file gi
 
 PCMasterGL has a very simple user interface with a near zero learning curve. The main window is shown below.
 
-![Create Project](./img/pcmastergl.png){: style="width: 100%;margin:0 auto;display:block;"}
+![Create Project](../img/pcmastergl.png){: style="width: 100%;margin:0 auto;display:block;"}
 
 The main window shows:
 

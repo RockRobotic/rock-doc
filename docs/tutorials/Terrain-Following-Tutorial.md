@@ -60,7 +60,7 @@ Next, open up the web browser of your choice and go to the following web address
 
 `192.168.12.1`
 
-![Start](../img/web-interface.png){: style="width: 450px;margin:0 auto;display:block"}
+![Start](../quickstart/img/web-interface.png){: style="width: 450px;margin:0 auto;display:block"}
 
 ## Configure the R1a
 
@@ -80,13 +80,13 @@ After turning on the R1a be sure to let the R1a sit in a static position for at 
 
 When you are ready to start collecting data click the 'Start' button within the web interface.
 
-![Start](../img/start.png){: style="width: 300px;margin:0 auto;display:block"}
+![Start](../quickstart/img/start.png){: style="width: 300px;margin:0 auto;display:block"}
 
 The LiDAR, IMU, and GPS will all start collecting data. Proceed with your planned mission!
 
 **Note:** To protect the user from accidently attempting to record data while the USB is unattached, the user does not have the ability to “Start” data recording in the “Status” window when the USB is unattached. When unattached the user will see the message shown below in Fig. 2-8. Message displayed when trying to record data while USB is unattached.
 
-![Re-attach](../img/re-attach.png){: style="width: 250px;margin:0 auto;display:block"}
+![Re-attach](../quickstart/img/re-attach.png){: style="width: 250px;margin:0 auto;display:block"}
 
 At the completion of the mission you will need to fly three additional figure 8 patterns with the drone and then land. Once on the ground let the drone sit for five minutes before stopping the data collection and powering off the unit.
 
