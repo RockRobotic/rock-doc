@@ -8,7 +8,7 @@
 !!! danger "Make Sure"
     Before proceeding to the LiDAR Calibration make certain the base station is setup and logging static RINEX 3.03 measurements
 
-Calibrating the LiDAR is an important step to collecting accurate data, and the procedure will be done twice at each acquisition session.  One time at the beginning, right after you start the R1A from the WebServer. (See [Connecting to R1A WiFi](../../quickstart/first-setup/#power-on-and-connecting-to-the-r1a) for information oh how to start the R1A from the web interface) and one time at the very end of your acquisition flights.
+Calibrating the LiDAR is an important step to collecting accurate data, and the procedure will be done twice at each acquisition session.  One time at the beginning, right after you start the R1A from the WebServer. (See [Connecting to R1A WiFi](../quickstart/first-setup) for information oh how to start the R1A from the web interface) and one time at the very end of your acquisition flights.
 
 ## Procedure
 
@@ -16,7 +16,7 @@ Calibrating the LiDAR is an important step to collecting accurate data, and the 
 :   Using the web interface, wait until you have 8 or more GNSS satellites. Then press the start button
     inside the data recording window.
 
-![Web Interface](../../quickstart/img/web-interface.png){: style="width: 350px;margin:0 auto;display:block;"}
+![Web Interface](../quickstart/img/web-interface.png){: style="width: 350px;margin:0 auto;display:block;"}
 
 ####Collect Static Data
 :   The R1A needs to get a static alignment. After you start data recording, then let the R1A
@@ -30,7 +30,7 @@ Calibrating the LiDAR is an important step to collecting accurate data, and the 
 :   Now fly 3 figure 8 patterns in the sky.  Do your best, but its not critical to be the best 8 flyer ;)
 
 
-![Figure 8](../../img/figure-8.gif){: style="width: 600px;margin:0 auto;display:block;"}
+![Figure 8](../img/figure-8.gif){: style="width: 600px;margin:0 auto;display:block;"}
 <div style="text-align: center;">
   <figcaption>Figure 1</figcaption>
 </div>

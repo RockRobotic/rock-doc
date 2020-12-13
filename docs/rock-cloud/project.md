@@ -6,11 +6,11 @@ Creating a project allows you to upload all of your LiDAR data and submit for pr
 
 Simply click 'Add New Project'
 
-![New Project](./img/add-new-project.png){: style="width: 300px;margin:0 auto;display:block;"}
+![New Project](../img/add-new-project.png){: style="width: 300px;margin:0 auto;display:block;"}
 
 And you will be presented with an easy and intuitive interface to upload your data.
 
-![Create Project](./img/create-project.png){: style="width: 300px;margin:0 auto;display:block;"}
+![Create Project](../img/create-project.png){: style="width: 300px;margin:0 auto;display:block;"}
 
 ## Project data
 

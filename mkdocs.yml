@@ -16,6 +16,7 @@ markdown_extensions:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
 copyright: '©2020 Rock Robotic Inc.'
+site_description: 'Accuracy. Reliability. Simplicity.'
 extra:
   social:
     - icon: fontawesome/brands/github
@@ -23,6 +24,9 @@ extra:
 repo_url: https://github.com/rockrobotic/rock-doc
 plugins:
   - search
+  - print-site:
+      add_cover_page: true
+      cover_page_template: "docs/assets/templates/custom_cover_page.tpl"
 markdown_extensions:
     - admonition
     - codehilite:
@@ -59,6 +63,7 @@ nav:
     - Connectivity: tutorials/connectivity.md
     - Firmware Update: tutorials/firmware.md
     - Advanced Mission Planning: tutorials/advanced-mission.md
+    - Terrain Following: tutorials/Terrain-Following-Tutorial.md
     - R1A Boresighting: tutorials/r1a-boresighting.md
   - Drone Setup:
     - Matrice 300 RTK: drone-setup/m300.md

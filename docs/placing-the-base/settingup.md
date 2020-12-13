@@ -9,7 +9,7 @@ The base station needs to have a clear sky view 30 degrees above the horizon. Th
 
 Take a look at 2 pictures below. The left picture demonstrates desirable conditions for the base location. The right one is an example of bad surrounding conditions such as the reduced view of the sky, possible obstructions or vegetation nearby.
 
-![Setting up](../../img/Reach-placement-correct-wrong.png){: style="width: 100%;margin:0 auto;display:block;"}
+![Setting up](../img/Reach-placement-correct-wrong.png){: style="width: 100%;margin:0 auto;display:block;"}
 <br />
 
 Examples of **good** environments for base placement:

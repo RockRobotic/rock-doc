@@ -6,13 +6,13 @@ The Rock Robotic Cloud is an all-in-one LiDAR cloud hosting and processing solut
 
 Upon navigating to https://cloud.rockrobotic.com you will be asked to create an account secured by two-factor authentication.
 
-![Screenshot](./img/2fa.png){: style="margin:0 auto;display:block;width:350px"}
+![Screenshot](../img/2fa.png){: style="margin:0 auto;display:block;width:350px"}
 
 ## Demo Projects
 
 Once logged in you will have access to a number of demo projects. Each of these demo projects give you the experience of the Rock Robotic Cloud Platform.
 
 <br/>
-![Screenshot](./img/bixby-bridge.png){: style="width:344px"}![Screenshot](./img/airport-runway.png){: style="width: 350px;"}![Screenshot](./img/Claremont-canyon.png){: style="width: 342px;"}![Screenshot](./img/power-substation.png){: style="width: 350px;"}
+![Screenshot](../img/bixby-bridge.png){: style="width:344px"}![Screenshot](../img/airport-runway.png){: style="width: 350px;"}![Screenshot](../img/Claremont-canyon.png){: style="width: 342px;"}![Screenshot](../img/power-substation.png){: style="width: 350px;"}
 
 Learn more about the [Creating your first Project](project.md).

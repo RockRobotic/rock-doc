@@ -6,25 +6,25 @@ The navigation bar has three main menu options. “Status”, “Storage” and 
 
 Beginning at the top, the “Status” option shows the current status of the R1a.
 
-![Status](./img/status.png){: style="width: 450px;margin:0 auto;display:block;"}
+![Status](../img/status.png){: style="width: 450px;margin:0 auto;display:block;"}
 
 Below the “Status” option is the “Data recording” option. The user can toggle between Start and Stop.
 
-![Start Stop](./img/start-stop.png){: style="width: 350px;margin:0 auto;display:block;"}
+![Start Stop](../img/start-stop.png){: style="width: 350px;margin:0 auto;display:block;"}
 
 ## Storage Menu Window
 
-![Storage Menu](./img/storage-menu.png){: style="width: 450px;margin:0 auto;display:block;"}
+![Storage Menu](../img/storage-menu.png){: style="width: 450px;margin:0 auto;display:block;"}
 
 The Storage Menu Window shows the contents of the USB storage device when it is connected to the R1a and the user has clicked “Re-attach”. At this time the user will have the ability to access, download, and view stored files on the USB memory stick.
 
 The storage indicator at the top of the screen will be green if storage space is within normal range. It will turn yellow when storage is at 75% max capacity, and turn red when it is at 95% max capacity.
 
-![Storage Capacity](./img/storage-capacity.png){: style="width: 450px;margin:0 auto;display:block;"}
+![Storage Capacity](../img/storage-capacity.png){: style="width: 450px;margin:0 auto;display:block;"}
 
 You can download or erase data files by clicking on the download or trash icons.
 
-![Storage Download](./img/storage-download-trash.png){: style="width: 150px;margin:0 auto;display:block;"}
+![Storage Download](../img/storage-download-trash.png){: style="width: 150px;margin:0 auto;display:block;"}
 
 **Note:** It is recommended to remove the USB drive from R1a and plug it into the host computer instead of downloading files over Wi-Fi. This method is much faster because scan files are usually quite large.
 
@@ -40,4 +40,4 @@ In the “Wireless Network” settings the user can configure the R1a to connect
 
 ## Firmware Tab Window
 
-Rock Robotic may occasionally provide a firmware update for the R1a. Refer to the [Firmware Update](firmware.md) page for more information.
+Rock Robotic may occasionally provide a firmware update for the R1a. Refer to the [Firmware Update](../tutorials/firmware.md) page for more information.
