@@ -23,6 +23,8 @@ Refer to the setup guide for your particular drone to connect the R1a.
 * [DJI Matrice 300 RTK](../drone-setup/m300.md)
 * [DJI Matrice 210](../drone-setup/m210.md)
 * [DJI Matrice 600](../drone-setup/m600.md)
+* [Freefly Alta-X](../drone-setup/alta-x.md)
+* [Other Drone System](../drone-setup/other.md)
 
 ## Power on and Connecting to the R1a
 
@@ -55,7 +57,7 @@ The base station should be configured to log Raw data in RINEX 3.03+ format for 
 
 ## Calibrate the R1a
 
-After turning on the R1a be sure to let the R1a sit in a static position for at least 5 seconds. Before turning on the LiDAR, you will need to fly a figure 8 pattern three times to ensure the IMU is calibrated. Once calibration is complete, land the drone.
+See the [complete steps](../../Calibration/Calibration) for taking off, calibrating, flying your mission, and landing.
 
 ## Collect Data
 

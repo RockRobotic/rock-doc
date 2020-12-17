@@ -20,14 +20,15 @@ Calibrating the LiDAR is an important step to collecting accurate data, and the 
 
 ####Collect Static Data
 :   The R1A needs to get a static alignment. After you start data recording, then let the R1A
-    sit completely still and allow a clear view of the sky and wait 15 seconds.
+    sit completely still and allow a clear view of the sky and wait 15 seconds. Once the app interface says 'Waiting for high speed kinematic alignment' you can proceed to the next step.
 
-####Take off and fly in straight line
-:   Next we will get kinematic alignment.  To do this fly in a straight line pretty quickly for
-    about 10 seconds.
+####Kinematic Alignment
+
+1. Take off and fly directly vertical.
+1. For at least **6 seconds** fly greater than **7 m/s** in a straight line in the **forward** direction of flight.
 
 ####Fly figure 8 pattern
-:   Now fly 3 figure 8 patterns in the sky.  Do your best, but its not critical to be the best 8 flyer ;)
+3. Now fly 2 figure 8 patterns in the sky.
 
 
 ![Figure 8](../img/figure-8.gif){: style="width: 600px;margin:0 auto;display:block;"}
@@ -36,18 +37,24 @@ Calibrating the LiDAR is an important step to collecting accurate data, and the 
 </div>
 
 ####Fly your mission
-:   Great!  Now the LiDAR is calirated and you can begin flying your mission plan. Either upload the
-    mission while still in the air or land upload and take of again!
+:   Great!  Now the LiDAR is calibrated and you can begin flying your mission plan. Either upload the
+    mission while still in the air or land upload and take off again!
 
 **Calibration Complete**
 
+## Mid-mission Battery Change
 
+If your mission will require multiple battery changes, fly directly forward back to the landing zone at a speed greater than **7 m/s**. Once you get overhead, do not exceed 2 m/s in horizontal speed while you turn the drone and bring it in for a landing.
 
+Keep the drone on the ground for no longer than **2 Minutes** while you change the batteries. If you remain on the ground for much longer than 2 minutes you are better off proceeding to the [shutdown proceedure](../quickstart/first-setup). Assuming you take off within the 2 minute window:
 
-
+1. Take off and fly directly vertical.
+1. For at least **6 seconds** fly greater than **7 m/s** in a straight line in the forward direction of flight toward your next waypoint and then resume the mission.
 
 ## End of Mission Calibration
 
-The end of mission is the exact same procedure.  As you fly back to the landing zone, manually fly 2 figure 8, then land.  Once landed don't move the system for 15 seconds.  This will capture a final static alignment dataset.    Then you can connect via the web interface and stop collecting data.
+At the end of your mission, fly directly forward back to the landing zone at a speed greater than **7 m/s**. Once you get overhead, do not exceed 2 m/s in horizontal speed while you turn the drone and bring it in for a landing.
+
+Once landed don't move the system for 15 seconds.  This will capture a final static alignment dataset.    Then you can connect via the web interface and stop collecting data.
 
 **You are Done!**
