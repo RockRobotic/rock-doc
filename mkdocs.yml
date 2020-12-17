@@ -70,6 +70,7 @@ nav:
   - Drone Setup:
     - Matrice 300 RTK: drone-setup/m300.md
     - Matrice 210: drone-setup/m210.md
+    - Matrice 200: drone-setup/m200.md
     - Matrice 600: drone-setup/m600.md
     - Freefly Alta-X: drone-setup/alta-x.md
     - Other Drone Systems: drone-setup/other.md
