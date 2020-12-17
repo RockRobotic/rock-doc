@@ -15,7 +15,7 @@ After Inertial Explorer is installed for the first time you will need to apply s
 
 <a id="raw-url" href="https://raw.githubusercontent.com/RockRobotic/rock-doc/master/docs/pre-processing/files/R1A_IE_Profiles.zip">Download configuration files</a>
 
-Unzip and place these configuration files inside `C:\NovAtel\InertialExplorer[version]\resources\User`
+Unzip and place these configuration files inside `C:\NovAtel\InertialExplorer890\resources\User`
 
 ## Process Trajectory
 
@@ -26,10 +26,6 @@ Select File -> New Project -> Project Wizard
 Welcome to the Project Wizard (click 'Next')
 
 ![Project Wizard](../img/project-wizard.png){: style="width: 80%;margin:0 auto;display:block;"}
-
-Project Info - click 'Create' and name the project
-
-![Create Project](../img/create-project.png){: style="width: 80%;margin:0 auto;display:block;"}
 
 Browse and select the 'Rover' data. This data will be found in the ROCK* folder on the R1A thumbdrive. The file will end with *-gnss.gps
 Select the checkbox 'I have IMU data file in Waypoint (IMR) format'.
@@ -83,13 +79,11 @@ Select Process -> Process TC (Tightly Coupled)
 
 ![TC](../img/tightly-coupled.png){: style="width: 300px;margin:0 auto;display:block;"}
 
-In Processing Settings select the 'SPAN UAV (STIM 300)' profile.
-Select 'Advanced IMU'
-Navigate to the 'States' tab -> deselect 'Lock selection' -> Select 'IL IMU' from list -> reselect 'Lock selection' -> select 'OK'
+In Processing Settings select:
 
-![IMU Settings](../img/imu-settings.png){: style="width: 80%;margin:0 auto;display:block;"}
-
-De-select 'Read rotations and lever arms from IMR file'
+1. Processing Direction 'Both' and Multi-pass
+1. 'IL INS (UAV)' profile
+1. De-select 'Read rotations and lever arms from IMR file'
 
 The first time processing data with the R1A on a particular drone, you need to 'Solve lever arm'
 
