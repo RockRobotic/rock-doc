@@ -12,6 +12,8 @@ In the box:
 
 * 1 x Rock Robotic R1a LiDAR
 * 1 x usb stick
+* 1 x Hard case
+* 1 x GNSS Antenna
 
 ## Getting Started
 
