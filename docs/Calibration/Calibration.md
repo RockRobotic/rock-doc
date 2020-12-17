@@ -46,7 +46,7 @@ Calibrating the LiDAR is an important step to collecting accurate data, and the 
 
 If your mission will require multiple battery changes, fly directly forward back to the landing zone at a speed greater than **5 m/s**. Once you get overhead, do not exceed 2 m/s in horizontal speed while you turn the drone and bring it in for a landing.
 
-Keep the drone on the ground for no longer than **2 Minutes** while you change the batteries. If you remain on the ground for much longer than 2 minutes you are better off proceeding to the [shutdown proceedure](../quickstart/first-setup). Assuming you take off within the 2 minute window, take off and resume your mission.
+Keep the drone on the ground for no longer than **5 Minutes** while you change the batteries. If you remain on the ground for much longer than 5 minutes you are better off proceeding to the [shutdown proceedure](../quickstart/first-setup). Assuming you take off within the 2 minute window, take off and resume your mission.
 
 ## End of Mission Calibration
 
