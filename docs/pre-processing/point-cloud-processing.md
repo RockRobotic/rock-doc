@@ -17,20 +17,23 @@ Recommended computer specifications:
 - Nvidia GeForce GTX 1050 Ti or better
 - Windows 10 x64
 
+## Prerequisites
+
+1. Trajectory File (see (Trajectory Processing)[trajectory-processing.md]))
+
 ## Quick Workflow
 
 Quick workflow is designed for fast LAS file production when the offsets and the calibration values are already stored in R1A. The R1A is delivered to customers fully calibrated. Therefore, the quick workflow is all that is needed 99% of the time.
 
-* Open PCMasterGL and select **New Project**
-![Create Project](../img/new-project.png){: style="width: 100%;margin:0 auto;display:block;"}
+* Move the project data from the USB stick to your local hard-drive. This will ensure the highest speed of processing.
 
-* Select the trajectory file that was produced during the Trajectory Processing step and click 'Open'.
-![Select Trajectory](../img/select-trajectory.png){: style="width: 80%;margin:0 auto;display:block;"}
+* Navigate to the project folder and double click to open the ppk.pcmp file. 
 
-* Select the scan files from your project. All scan files should be selected at the same time and select 'Open'.
-![Select Scan files](../img/select-scan.png){: style="width: 80%;margin:0 auto;display:block;"}
+`ROCK-XXXX-[DATE]/Processing Files/ppk.pcmp`
 
-* One the trajectory appears it should look similar to:
+This will open up PCMasterGL with your project files and the trajectory that you processed in the previous step.
+
+* Once the trajectory appears it should look similar to:
 ![View Trajectory](../img/view-trajectory.png){: style="width: 100%;margin:0 auto;display:block;"}
 
 * **Right-click** at the blue end of the trajectory and select &quot; **Start selection here**&quot;.
@@ -63,7 +66,10 @@ Your first selection will now look like this:
 * Click **Produce LAS** and save the project when asked.
 ![Select Produce LAS](../img/select-produce-las.png){: style="width: 100%;margin:0 auto;display:block;"}
 
-* You now have an LAS file!
+
+You now have an LAS file! If you have a co-aligned camera, then proceed to **[Pointcloud Colorizing](colorizing.md)**
+
+Otherwise ** [Upload to the ROCK Cloud for post-processing](../rock-cloud/project.md) **
 
 ## Full Workflow
 
