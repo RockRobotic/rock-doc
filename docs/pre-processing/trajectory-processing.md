@@ -111,7 +111,11 @@ Once processing is complete select 'Output' -> 'Export Wizard'
 
 ![Export Wizard](../img/export-wizard.png){: style="width: 300px;margin:0 auto;display:block;"}
 
-Select PCMasterGL in the profile -> Next
+Name the exported file and select PCMasterGL in the profile -> Next
+
+!!! warning "File name and Location"
+    In order for the next processing steps to work smoothly, ensure you place the exported file in the pre-created 'ins' directory and name the file 'ppk.txt'.
+    It should look like this `ROCK-XXXX-[DATE]/ins/ppk.txt`
 
 ![Export Wizard](../img/export-coordinates-wizard.png){: style="width: 80%;margin:0 auto;display:block;"}
 
