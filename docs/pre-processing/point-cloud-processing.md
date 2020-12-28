@@ -19,7 +19,7 @@ Recommended computer specifications:
 
 ## Prerequisites
 
-1. Trajectory File (see (Trajectory Processing)[trajectory-processing.md]))
+1. Trajectory File (see [Trajectory Processing](trajectory-processing.md))
 
 ## Quick Workflow
 
