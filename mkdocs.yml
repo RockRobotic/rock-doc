@@ -58,6 +58,7 @@ nav:
     - Process: rock-cloud/process.md
     - Deliverables: rock-cloud/deliverables.md
     - WebGL: rock-cloud/webgl.md
+    - Custom Site Projections: rock-cloud/exporting-in-other-projection-systems.md
   - Tutorials:
     - Placing the Base: tutorials/Placing-the-Base.md
     - Geometry Configuration: tutorials/geometry-configuration.md
