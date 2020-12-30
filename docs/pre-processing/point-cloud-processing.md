@@ -107,6 +107,15 @@ In full workflow, designed for laser calibration and boresighting, the steps are
   - Select other lasers one by one and adjust their &quot; **Azimuth**&quot;offsets, aligning the horizontal edges; and their &quot; **Elevation**&quot; offsets, aligning the vertical edges of the same wall.
   - Verify the quality of calibration by selecting all lasers together and verifying that all clouds are aligned.
 
+Cloud adjustments can be more visible if a thin slice is created:
+
+- Move the focus point where the back plane of the desired slice will be, **right-click**, and select **“Start slicing at the focus point”**.
+- Move the focus point where the front plane of the desired slice will be. The slice will be created and changed while the focus point moves. The slice does not have to be parallel to the vertical plane. If the focus point changes its altitude (by holding **Ctrl** while dragging the focus point) the slice planes will be tilted or even horizontal.
+- If you need to change the starting point, **right-click** and select **“Restart slicing at the focus point”**.
+- **Right-click** at the spot where the front plane will be and select **“Finish slicing”**. After that, moving the focus point any further will not affect the slice.
+- If you need to move the slice, hold **Ctrl** and scroll the **mouse wheel** to move it back and forth across the slice plane.
+- If you need to make the slice thinner or thicker, hold **Ctrl** and **Shift** and scroll the **mouse wheel**.
+
 Now the calibration segments can be removed by clicking &quot; **Delete**&quot; for each of them in the **Path controls** window. Then the full trajectory can be selected for LAS file export as in the next section for Quick workflow.
 
 Also, the project can be saved using &quot; **Save Project**&quot; and imported into R1A for storing the offsets and the calibration values.
