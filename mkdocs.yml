@@ -15,7 +15,7 @@ markdown_extensions:
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
-copyright: '©2020 Rock Robotic Inc.'
+copyright: '©2021 Rock Robotic Inc.'
 site_description: 'Accuracy. Reliability. Simplicity.'
 extra:
   social:
@@ -41,8 +41,8 @@ markdown_extensions:
 nav:
   - Introduction: index.md
   - Placing the Base: placing-the-base/settingup.md
-  - Calibration: Calibration/Calibration.md
   - Mission Planning: mission-planning/mission-planning.md
+  - Take Flight: Calibration/Take-flight.md
   - Quickstart:
     - First Setup: quickstart/first-setup.md
     - Web Interface: quickstart/web-interface.md
