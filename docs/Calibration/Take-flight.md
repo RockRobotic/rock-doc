@@ -1,4 +1,4 @@
-# Calibrating the LiDAR
+# Take Flight
 
 !!! tip ""
     Before each acquisition and at the end of each acquisition the LiDAR system needs to be calibrated.
@@ -6,7 +6,7 @@
 ## Overview
 
 !!! danger "Make Sure"
-    Before proceeding to the LiDAR Calibration make certain the base station is setup and logging static RINEX 3.03 measurements
+    Before proceeding to the LiDAR Calibration make certain the base station is setup and logging static RINEX measurements
 
 Calibrating the LiDAR is an important step to collecting accurate data, and the procedure will be done twice at each acquisition session.  One time at the beginning, right after you start the R1A from the WebServer. (See [Connecting to R1A WiFi](../quickstart/first-setup) for information oh how to start the R1A from the web interface) and one time at the very end of your acquisition flights.
 
