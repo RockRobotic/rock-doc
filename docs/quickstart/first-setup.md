@@ -37,7 +37,7 @@ First, ensure the supplied usb drive is inserted into the R1a. Then, power on th
 
 Connect to this network using the following password:
 
-`LidarAndINS`
+`rocklidar`
 
 Next, open up the web browser of your choice and go to the following web address:
 
