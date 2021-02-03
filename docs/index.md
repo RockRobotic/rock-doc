@@ -3,7 +3,7 @@
 Welcome to your Rock Robotic R1a!
 
 [![Base placement](../img/Base-Placement.png){: style="width: 200px;"}](placing-the-base/settingup.md)
-[![Calibration](../img/calibration.png){: style="width: 200px;"}](Calibration/Calibration.md)
+[![Take Flight](../img/calibration.png){: style="width: 200px;"}](Calibration/Take-flight.md)
 [![Flight Plan](../img/flight-plan.png){: style="width: 200px;"}](mission-planning/mission-planning.md)
 
 ## Package Contents

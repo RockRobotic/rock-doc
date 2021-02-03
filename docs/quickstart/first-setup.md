@@ -55,10 +55,6 @@ A highly accurate trajectory is necessary for accurate results from the R1a. In 
 
 The base station should be configured to log Raw data in RINEX 3.03+ format for the entire duration of the R1a data acquisition.
 
-## Calibrate the R1a
-
-See the [complete steps](../../Calibration/Calibration) for taking off, calibrating, flying your mission, and landing.
-
 ## Collect Data
 
 When you are ready to start collecting data click the 'Start' button within the web interface.
@@ -71,7 +67,9 @@ The LiDAR, IMU, and GPS will all start collecting data. Proceed with your planne
 
 ![Attach Storage](../img/re-attach.png){: style="width: 250px;margin:0 auto;display:block;"}
 
-At the completion of the mission you will need to fly three additional figure 8 patterns with the drone and then land. Once on the ground let the drone sit for five minutes before stopping the data collection and powering off the unit.
+## Take Flight
+
+See the [complete steps](../../Calibration/Take-flight) for taking off, calibrating, flying your mission, and landing.
 
 Congratulations! You collected your first LiDAR data!
 
