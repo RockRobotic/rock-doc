@@ -19,4 +19,7 @@ PCMasterGL works on Windows 10 x64 (MacOS and Linux x64 versions are in developm
 * Nvidia GeForce GTX 1050 Ti or better
 * Windows 10 x64
 
+!!! danger "Make Sure"
+    Do not process the data when it is still on the usb drive. It is too slow for processing. Transfer to your computer first.
+
 ** Step 1 - [Create a highly accurate trajectory](trajectory-processing.md) **

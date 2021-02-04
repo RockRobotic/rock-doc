@@ -17,6 +17,9 @@ Recommended computer specifications:
 - Nvidia GeForce GTX 1050 Ti or better
 - Windows 10 x64
 
+!!! danger "Make Sure"
+    Do not process the data when it is still on the usb drive. It is too slow for processing. Transfer to your computer first.
+
 ## Prerequisites
 
 1. Trajectory File (see [Trajectory Processing](trajectory-processing.md))
