@@ -9,6 +9,9 @@ In order to have a highly accurate point cloud the exact position of the LiDAR u
 1. A base station RINEX file
 1. The precise position of the base station
 
+!!! danger "Make Sure"
+    Do not process the data when it is still on the usb drive. It is too slow for processing. Transfer to your computer first.
+
 ## Install Inertial Explorer User Settings
 
 After Inertial Explorer is installed for the first time you will need to apply some user settings.
