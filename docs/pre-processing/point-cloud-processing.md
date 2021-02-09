@@ -36,6 +36,8 @@ Quick workflow is designed for fast LAS file production when the offsets and the
 
 This will open up PCMasterGL with your project files and the trajectory that you processed in the previous step.
 
+### Selecting Your Flight Lines
+
 * Once the trajectory appears it should look similar to:
 ![View Trajectory](../img/view-trajectory.png){: style="width: 100%;margin:0 auto;display:block;"}
 
