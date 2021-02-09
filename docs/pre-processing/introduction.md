@@ -22,4 +22,31 @@ PCMasterGL works on Windows 10 x64 (MacOS and Linux x64 versions are in developm
 !!! danger "Make Sure"
     Do not process the data when it is still on the usb drive. It is too slow for processing. Transfer to your computer first.
 
-** Step 1 - [Create a highly accurate trajectory](trajectory-processing.md) **
+## Activate "Embedded" Novatel License
+
+PCMasterGL provides automated post processing powered by NovAtel Waypoint Inertial Explorer for users that purchased their LiDAR payload with the embedded Inertial Explorer license. In order to use this embedded feature you must ensure that you have PCMasterGL version >2.x. Additionally, before processing inertial data, you must activate your Inertial Explorer license through the NovAtel Local License Manager in the RockRobotic root folder.
+
+The pathway to the Local License Manager should look similar to this:
+
+C:\RockRobotic\PCMasterGL 
+
+From there, open the application “LLMform” and the window shown below will
+open.
+
+![Inertial Explorer License Manger](../img/ie-license-manager.png){: style="width: 100%;margin:0 auto;display:block;"}
+
+Then, select the tab “Activate License” on the left side of the window and input your license key to the field named “Activate License:”. Be sure to include the dash marks in the license key like shown in the example below.
+
+**Example: xxxx-xxxx-xxxx-xxxx-xxx**
+
+After this, select “Activate” and your license will be activated.
+
+## Activate "Stand-alone" Novatel License
+
+If you have a stand-alone Novatel License, then you will need to activate your license by following the [steps provided by Novatel](https://drive.google.com/file/d/1rht6fkXfudxcngIF1KCJbJ_-0jkjudtE/view?usp=sharing).
+
+** Step 1 - [Create a highly accurate trajectory using "Embedded" Inertial Explorer](embedded-trajectory-processing.md) **
+
+Or
+
+** Step 1 - [Create a highly accurate trajectory using "Stand-alone" Inertial Explorer](trajectory-processing.md) **
