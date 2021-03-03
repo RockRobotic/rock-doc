@@ -8,7 +8,7 @@
 !!! danger "Make Sure"
     Before proceeding to the LiDAR Calibration make certain the base station is setup and logging static RINEX measurements
 
-Calibrating the LiDAR is an important step to collecting accurate data, and the procedure will be done twice at each acquisition session.  One time at the beginning, right after you start the R1A from the WebServer. (See [Connecting to R1A WiFi](../quickstart/first-setup) for information oh how to start the R1A from the web interface) and one time at the very end of your acquisition flights.
+Calibrating the LiDAR is an important step to collecting accurate data, and the procedure will be done twice at each acquisition session.  One time at the beginning, right after you start the R1A from the WebServer. (See [Connecting to R1A WiFi](/quickstart/first-setup#power-on-and-connecting-to-the-r1a) for information oh how to start the R1A from the web interface) and one time at the very end of your acquisition flights.
 
 ## Procedure
 
@@ -46,7 +46,7 @@ Calibrating the LiDAR is an important step to collecting accurate data, and the 
 
 If your mission will require multiple battery changes, fly directly forward back to the landing zone at a speed greater than **5 m/s**. Once you get overhead, do not exceed 2 m/s in horizontal speed while you turn the drone and bring it in for a landing.
 
-Keep the drone on the ground for no longer than **5 Minutes** while you change the batteries. If you remain on the ground for much longer than 5 minutes you are better off proceeding to the [shutdown proceedure](../quickstart/first-setup). Assuming you take off within the 2 minute window, take off and resume your mission.
+Keep the drone on the ground for no longer than **5 Minutes** while you change the batteries. If you remain on the ground for much longer than 5 minutes you are better off proceeding to the End of Mission Calibration. Assuming you take off within the 2 minute window, take off and resume your mission.
 
 ## End of Mission Calibration
 
