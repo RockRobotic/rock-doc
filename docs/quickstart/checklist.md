@@ -1,4 +1,4 @@
-# Flight Checklists
+# Quick Flight Checklists
 
 ## Pre-flight
 
@@ -18,9 +18,11 @@
 
 ## Flight
 
-1. Take off and fly quickly in a straight line for 10 seconds.
+1. Take off and fly directly vertical.
 
-1. Fly three figure 8 patterns
+1. For at least **6 seconds** fly greater than **5 m/s** in a straight line in the **forward** direction of flight.
+
+1. Fly two figure 8 patterns
 
 1. Start the mission
 
@@ -29,8 +31,8 @@
 
 ## Landing
 
-1. Once your mission is complete and you are flying back home, fly two figure 8 patterns before landing.
+1. At the end of your mission, fly directly forward back to the landing zone at a speed greater than **5 m/s**. Once you get overhead, do not exceed 2 m/s in horizontal speed while you turn the drone and bring it in for a landing.
 
-1. Once landed, don't move the system for 15 seconds.
+1. Once landed, don't move the system for 30 seconds.
 
 1. Log in to the LiDAR and stop collecting data.

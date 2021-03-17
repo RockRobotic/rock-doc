@@ -8,18 +8,22 @@
 !!! danger "Make Sure"
     Before proceeding to the LiDAR Calibration make certain the base station is setup and logging static RINEX measurements
 
-Calibrating the LiDAR is an important step to collecting accurate data, and the procedure will be done twice at each acquisition session.  One time at the beginning, right after you start the R1A from the WebServer. (See [Connecting to R1A WiFi](/quickstart/first-setup#power-on-and-connecting-to-the-r1a) for information oh how to start the R1A from the web interface) and one time at the very end of your acquisition flights.
+Calibrating the LiDAR is an important step to collecting accurate data, and the procedure will be done twice at each acquisition session.  One time at the beginning, right after you start the LiDAR from the WebServer. (See [Connecting to LiDAR WiFi](/quickstart/first-setup#power-on-and-connecting-to-the-lidar) for information oh how to start the LiDAR from the web interface) and one time at the very end of your acquisition flights.
 
 ## Procedure
 
-####Start the R1A LiDAR
+!!! tip "Tip"
+    See [Full Flight without using GUI](../tutorials/flight-no-gui.md) for an even faster setup.
+
+
+####Start the LiDAR
 :   Using the web interface, wait until you have 8 or more GNSS satellites. Then press the start button
     inside the data recording window.
 
 ![Web Interface](../img/web-interface.png){: style="width: 350px;margin:0 auto;display:block;"}
 
 ####Collect Static Data
-:   The R1A needs to get a static alignment. After you start data recording, then let the R1A
+:   The LiDAR needs to get a static alignment. After you start data recording, then let the LiDAR
     sit completely still and allow a clear view of the sky and wait 15 seconds. Once the app interface says 'Waiting for high speed kinematic alignment' you can proceed to the next step.
 
 ####Kinematic Alignment
@@ -52,6 +56,8 @@ Keep the drone on the ground for no longer than **5 Minutes** while you change t
 
 At the end of your mission, fly directly forward back to the landing zone at a speed greater than **5 m/s**. Once you get overhead, do not exceed 2 m/s in horizontal speed while you turn the drone and bring it in for a landing.
 
-Once landed don't move the system for 15 seconds.  This will capture a final static alignment dataset.    Then you can connect via the web interface and stop collecting data.
+Once landed don't move the system for 30 seconds.  This will capture a final static alignment dataset. Then you can connect via the web interface and stop collecting data and shutdown the LiDAR.
 
 **You are Done!**
+
+You can now remove the usb stick and proceed to [pre-process the data](../pre-processing/introduction.md)
