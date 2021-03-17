@@ -1,6 +1,9 @@
 # Placing the Base Station
 * [Measuring Base Height](#measuring-base-height)
 
+!!! notice
+    For documentation specific to the Emlid Reach RS2 visit [RS2 documentation](https://docs.emlid.com/reachrs2/)
+
 ## Overview
 
 LiDAR data acquisition requires 2 receivers. One of them is stationary and is called the “base station”, the other one, on the ROCK R1A, is the “rover”. Both the base station and the rover receives and logs GNSS observations. These observations (combined with precise IMU data on the LiDAR) can be merged together in the PPK processing step to create a highly accurate trajectory of the rover. 

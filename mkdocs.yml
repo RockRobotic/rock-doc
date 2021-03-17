@@ -40,13 +40,20 @@ markdown_extensions:
     - attr_list
 nav:
   - Introduction: index.md
-  - Placing the Base: placing-the-base/settingup.md
-  - Mission Planning: mission-planning/mission-planning.md
-  - Take Flight: Calibration/Take-flight.md
   - Quickstart:
+    - Placing the Base: placing-the-base/settingup.md
+    - Mission Planning: mission-planning/mission-planning.md
     - First Setup: quickstart/first-setup.md
-    - Web Interface: quickstart/web-interface.md
+    - Take Flight: Calibration/Take-flight.md
     - Flight Checklist: quickstart/checklist.md
+  - LiDAR Details:
+      - Understanding the Payload: lidar-details/understanding-payload.md
+      - Web Interface: lidar-details/web-interface.md
+      - USB Drive: lidar-details/usb.md
+      - Firmware Update: lidar-details/firmware.md
+      - Geometry Configuration: lidar-details/geometry-configuration.md
+      - Connectivity: lidar-details/connectivity.md
+      - Boresighting: lidar-details/boresighting.md
   - Rock Robotic Pre-processing:
     - Introduction: pre-processing/introduction.md
     - Embedded Trajectory Processing: pre-processing/embedded-trajectory-processing.md
@@ -62,13 +69,9 @@ nav:
     - Custom Site Projections: rock-cloud/exporting-in-other-projection-systems.md
   - Tutorials:
     - Placing the Base: tutorials/Placing-the-Base.md
-    - Geometry Configuration: tutorials/geometry-configuration.md
-    - Connectivity: tutorials/connectivity.md
-    - Firmware Update: tutorials/firmware.md
+    - No GUI Flight: tutorials/flight-no-gui.md
     - Advanced Mission Planning: tutorials/advanced-mission.md
     - Terrain Following: tutorials/Terrain-Following-Tutorial.md
-    - R1A Boresighting: tutorials/r1a-boresighting.md
-    - USB Drive: tutorials/usb.md
   - Drone Setup:
     - Matrice 300 RTK: drone-setup/m300.md
     - Matrice 210: drone-setup/m210.md

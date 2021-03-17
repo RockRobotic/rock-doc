@@ -23,8 +23,7 @@ Recommended computer specifications:
 
 ## Prerequisites
 
-1. Trajectory File (see [Trajectory Processing](trajectory-processing.md]))
-2. Processed point cloud (see [Pointcloud Processing](point-cloud-processing.md))
+1. Processed point cloud (see [Pointcloud Processing](point-cloud-processing.md))
 
 ## Quick Workflow
 

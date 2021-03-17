@@ -1,7 +1,7 @@
 !!! tip ""
-    A well-placed Reach base is essential for achieving good RTK positioning results.
+    A well-placed Reach base is essential for achieving good positioning results.
 
-You can place your smartphone near the window in your house and it will obtain GNSS coordinates after some time, but for the R1A LiDAR such environment won't be sufficient. For the R1A to work there are special requirements for placing the base.
+You can place your smartphone near the window in your house and it will obtain GNSS coordinates after some time, but for the ROCK Robotic LiDAR such environment won't be sufficient. For the R1A/R2A to work there are special requirements for placing the base.
 
 ### Clear sky view without any obstacles
 
@@ -31,7 +31,7 @@ Examples of **bad** environments for base placement:
 
 ### No electronics nearby
 
-Electronic devices may produce RF noise that could affect the reception of the GNSS signal. Keep all electronics as far as possible from base and R1A.
+Electronic devices may produce RF noise that could affect the reception of the GNSS signal. Keep all electronics as far as possible from the base and the LiDAR.
 
 ### Setting up the base
 

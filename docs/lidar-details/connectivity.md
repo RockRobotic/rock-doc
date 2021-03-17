@@ -1,6 +1,6 @@
 # Connectivity
 
-External WiFi networks can be useful for supplying differential GNSS corrections to the R1a for RTK trajectory generation.
+External WiFi networks can be useful for supplying differential GNSS corrections to the R1A/R2A for RTK trajectory generation.
 
 In the options for “RTCM Corrections” the user can choose the delivery method for corrections to the R1a. The options are:
 * USB RF Modem like Holybro 915MHz

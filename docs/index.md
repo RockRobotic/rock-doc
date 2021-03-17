@@ -10,10 +10,14 @@ Welcome to your Rock Robotic R1a!
 
 In the box:
 
-* 1 x Rock Robotic R1a LiDAR
+* 1 x Rock Robotic LiDAR
 * 1 x usb stick
+* 1 x camera (optional)
 * 1 x Hard case
 * 1 x GNSS Antenna
+* 1 x GNSS Antenna mount
+* 1 x GNSS cable
+* 1 x camera cable (optional)
 
 ## Getting Started
 

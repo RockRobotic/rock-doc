@@ -10,7 +10,7 @@ In addition to common global coordinate systems such as WGS-84 (EPSG 4326) and W
 
 **Find your EPSG Code**
 
-EPSG codes are unique identifiers describing the desired projection. The EPSG code for almost any projection can be found on the [Spatial Reference Organization's website](https://spatialreference.org/ref/).
+EPSG codes are unique identifiers describing the desired projection. The EPSG code for almost any projection can be found on the [Spatial Reference Organization's website](https://spatialreference.org/ref/) or [EPSG.io](https://epsg.io).
 
 ## Custom Coordinate Systems
 
