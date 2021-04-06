@@ -34,7 +34,7 @@ Quick workflow is designed for fast LAS file production when the offsets and the
 
 * Navigate to the project folder and double click to open the ppk.pcmp file. 
 
-`ROCK-XXXX-[DATE]/Processing Files/ppk.pcpp`
+`ROCK-XXXX-[DATE]/ppk.pcpp`
 
 This will load PCPainterGL and load all of the photos.
 
