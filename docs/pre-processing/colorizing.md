@@ -27,7 +27,7 @@ Recommended computer specifications:
 
 ## Quick Workflow
 
-Quick workflow is designed for fast LAS file production when the offsets and the calibration values are already stored in R1A. The R1A is delivered to customers fully calibrated. Therefore, the quick workflow is all that is needed 99% of the time.
+Quick workflow is designed for fast LAS file production when the offsets and the calibration values are already stored in your R1A/R2A. The LiDAR is delivered to customers fully calibrated. Therefore, the quick workflow is all that is needed 99% of the time.
 
 * Navigate to the project folder and double click to open the ppk.pcmp file. 
 
@@ -44,10 +44,10 @@ This will load PCPainterGL and load all of the photos.
 In full workflow, designed for laser calibration and boresighting, the steps are:
 
 - Click **New Project**– select the trajectory file, the scan files, and the digital images when asked. All scan files should be selected at the same time.
-- PCPainterGL will load the data and pre-process scan files. It will also load the R1A orientation, the offsets and laser calibration values that were stored on R1A. The trajectory will be displayed, colored from blue at the beginning, to red at the end.
-- Verify **R1A orientation** and that it matches the actual orientation of the unit (in relation to vehicle) during the scan. It should most likely match.
-- Verify **Linear offset** and that it matches the reference values provided by the manufacturer. This is the offset between the IMU in the R1A and the digital camera.
-- Verify the **Angular offset** and that it matches for the hardware setup used for the project being created. This angular offset is the offset between the IMU in the R1A and the camera being used.
+- PCPainterGL will load the data and pre-process scan files. It will also load the LiDAR orientation, the offsets and laser calibration values that were stored. The trajectory will be displayed, colored from blue at the beginning, to red at the end.
+- Verify **LiDAR orientation** and that it matches the actual orientation of the unit (in relation to vehicle) during the scan. It should most likely match.
+- Verify **Linear offset** and that it matches the reference values provided by the manufacturer. This is the offset between the IMU in the LiDAR and the digital camera.
+- Verify the **Angular offset** and that it matches for the hardware setup used for the project being created. This angular offset is the offset between the IMU in the LiDAR and the camera being used.
 - To ensure that camera images are correctly overlaid onto cloud points, enter in the Camera Lens Calibration settings in the **Lens Calibration** menu item.
 - Right-click on segments of the trajectory file and select **Switch to the camera here** to view the photograph taken at that instance during the scan.
 - Click **Produce LAS** and save the project when asked.
