@@ -54,6 +54,7 @@ nav:
       - Geometry Configuration: lidar-details/geometry-configuration.md
       - Connectivity: lidar-details/connectivity.md
       - Boresighting: lidar-details/boresighting.md
+      - Camera Boresighting: lidar-details/camera-boresighting.md
   - Rock Robotic Pre-processing:
     - Introduction: pre-processing/introduction.md
     - Embedded Trajectory Processing: pre-processing/embedded-trajectory-processing.md
