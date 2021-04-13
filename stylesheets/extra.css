@@ -1,0 +1,71 @@
+/* roboto-condensed-700 - latin */
+@font-face {
+  font-family: 'Roboto Condensed';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/roboto-condensed-v18-latin-700.eot'); /* IE9 Compat Modes */
+  src: local('Roboto Condensed Bold'), local('RobotoCondensed-Bold'),
+       url('../fonts/roboto-condensed-v18-latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/roboto-condensed-v18-latin-700.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/roboto-condensed-v18-latin-700.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/roboto-condensed-v18-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/roboto-condensed-v18-latin-700.svg#RobotoCondensed') format('svg'); /* Legacy iOS */
+}
+
+.md-header {
+    background-color: #000000 !important;
+    box-shadow: none;
+}
+
+.md-header-nav__button.md-logo {
+  margin: auto;
+  padding: 0;  
+}
+
+.md-header-nav__button.md-logo img {
+  width: 200px;
+  height: auto;
+}
+
+.md-header[data-md-state=shadow] {
+    box-shadow: none;
+}
+
+.md-typeset h1 {
+    font-family: 'Roboto Condensed';
+    font-size: 45px;
+    color: #181818;
+    letter-spacing: -0.04em;
+}
+
+.md-typeset h2 {
+    font-size: 28px;
+    color: #181818;
+    letter-spacing: -0.03em;
+    font-weight: bold;
+}
+
+.md-typeset h3 {
+    font-size: 24px;
+    color: #181818;
+    letter-spacing: -0.04em;
+}
+
+.md-nav__title .md-nav__button.md-logo img {
+    width: auto;
+    height: 1.2rem;
+}
+
+.md-footer-links {
+    margin: auto .6rem;
+    padding: .4rem 0;
+    color: var(--md-footer-fg-color--lighter);
+    font-size: .64rem;
+}
+
+#print-site-cover-page h1 {
+    color: black;
+}
+#print-site-banner span {
+  display: none;
+}
