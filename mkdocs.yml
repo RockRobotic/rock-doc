@@ -55,6 +55,8 @@ nav:
       - Connectivity: lidar-details/connectivity.md
       - Boresighting: lidar-details/boresighting.md
       - Camera Boresighting: lidar-details/camera-boresighting.md
+      - R2A Physical Dimensions: lidar-details/r2a-physical.md
+      - GNSS Antenna Datasheet: lidar-details/gnss-antenna-specs.md
   - Rock Robotic Pre-processing:
     - Introduction: pre-processing/introduction.md
     - Embedded Trajectory Processing: pre-processing/embedded-trajectory-processing.md
