@@ -50,7 +50,7 @@ Next, open up the web browser of your choice and go to the following web address
 
 ## Configure the LiDAR
 
-In order to obtain as accurate as possible data from the LiDAR, the unit needs to be configured for the data acquisition vehicle. [See Geometry Configuration for details](../lidar-details/geometry-configuration.md). If using the LiDAR as designed and shipped from Rock Robotic, then this information will already be configured. If you are using a custom configuration, refer to the [Community](https://community.rockrobotic.com) for additional help.
+In order to obtain accurate data from the LiDAR, the unit needs to be configured for the data acquisition vehicle. [See Geometry Configuration for details](../lidar-details/geometry-configuration.md). If using the LiDAR as designed and shipped from Rock Robotic, then this information will already be configured. If you are using a custom configuration, refer to the [Community](https://community.rockrobotic.com) for additional help.
 
 ## Setup your Base Station
 
